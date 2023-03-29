@@ -1,1 +1,2 @@
-web : bin/iteung
+main: bin/gocroot
+web: bin/iteung
