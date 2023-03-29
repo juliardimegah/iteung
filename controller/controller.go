@@ -40,3 +40,8 @@ func PostWhatsAuthRequest(c *fiber.Ctx) error {
 	}
 
 }
+
+func Homepage(c *fiber.Ctx) error {
+	ipaddr := musik.GetIPaddress()
+	return c.JSON(ipaddr)
+}
